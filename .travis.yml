@@ -1,0 +1,17 @@
+language: java
+jdk: oraclejdk11
+
+cache:
+  directories:
+  - $HOME/.m2
+
+#before_script:
+#- psql -c 'create database postgres' -U postgres
+#- psql -c 'create user "user"; grant all privileges on database topjava to "user"' -U postgres
+
+branches:
+  only:
+  - master
+
+#env:
+#- LUNCHVOTINGSYSTEM=$TRAVIS_BUILD_DIR

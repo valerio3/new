@@ -24,7 +24,7 @@
         <tomcat.version>9.0.12</tomcat.version>
 
         <!--DB-->
-        <postgresql.version>42.2.5</postgresql.version>
+        <postgresql.version>42.2.25</postgresql.version>
 
         <!-- Logging -->
         <logback.version>1.2.3</logback.version>
